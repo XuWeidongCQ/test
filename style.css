@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 244, 247);
+    /* font-family: 'PingFang SC'; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+#title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#totalWrapper {
+    background-color: #fff;
+    padding: 0px 16px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+
+}
+
+#listWrapper {
+    flex: 1;
+    overflow: auto;
+}
+
+#back {
+    display: flex;
+    align-items: center;
+}
+
+#back > img {
+    width: 15px;
+}
+
+#back, #feedback {
+    color: rgb(94, 135, 222);
+}
+
+#feedback {
+    padding-right: 10px;
+}
+
+#totalIncome {
+    border-bottom: 1px solid rgb(232,232,232);
+}
+
+#totalIncomeText > img {
+    width: 17px;
+    /* vertical-align: bottom; */
+}
+
+#totalIncome, #totalTax {
+    display: flex;
+    justify-content: space-between;
+}
+
+#totalIncome {
+    padding: 16px 0 8px 0;
+}
+
+#totalTax {
+    padding: 8px 0 16px 0;
+}
